@@ -303,10 +303,10 @@ section.portada .content-portada h1{
 
 section.portada .box-nombres-fecha-portada .line{
   height: 1px;
-  width: 50%;
+  width: 40%;
   background-color: #fff;
   margin: 0 auto;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 section.portada .box-nombres-fecha-portada h1 span{
