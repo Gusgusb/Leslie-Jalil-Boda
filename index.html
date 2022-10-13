@@ -1746,7 +1746,7 @@
 
     <!-- Config map -->
     <script>
-        function initMap(latitud = 21.281221, longitud = -86.819384) {
+        function initMap(latitud = 0, longitud = 0) {
 
             var myLatLng = {
                 lat: latitud,
@@ -1758,7 +1758,6 @@
                 zoom: 15,
                 scrollwheel: false,
                 disableDefaultUI: false,
-                
 
                 // The latitude and longitude to center the map (always required)
                 center: new google.maps.LatLng(latitud, longitud),
@@ -1874,10 +1873,9 @@
             var map = new google.maps.Map(mapElement, mapOptions);
 
             var marker = new google.maps.Marker({
-                position: new google.maps.LatLng(21.281261,-86.819502),
+                position: myLatLng,
                 map: map,
-                title: 'Majestic Elegance Costa Mujeres'
-            });/*  */
+            });
 
         }
     </script>
