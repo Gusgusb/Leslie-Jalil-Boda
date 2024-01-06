@@ -164,7 +164,7 @@
                                    
                            <div id="dias" class="reloj-col">
                             <span class="number">15</span> 
-                            <span class="time">días</span>
+                            <span class="time">dias</span>
                             
                                                      
                             </div>
@@ -1325,7 +1325,7 @@
     <!-- Cuenta regresiva -->
     <script>
         // Set the date we're counting down to
-        var countDownDate = new Date("2023","01","20","13").getTime()
+        var countDownDate = new Date().getTime("Jan 20, 2024 13:00:00")
 
         // Update the count down every 1 second
         var x = setInterval(function() {
@@ -1354,7 +1354,7 @@
             // If the count down is finished, write some text
             if (distance < 0) {
                 clearInterval(x);
-                document.getElementById("reloj").innerHTML = '<p class="fin-cuenta">' +
+                document.getElementById("").innerHTML = '<p class="fin-cuenta">' +
                     lang_textoFinalCuentaRegresiva + '</p>';
                 $('.falta').text('');
             }
